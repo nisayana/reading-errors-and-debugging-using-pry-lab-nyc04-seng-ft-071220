@@ -19,11 +19,12 @@ def selection(num)
     # binding.pry
      "HAM HAM HAM IN MY TUMMY"
   end
-  binding.pry
+  # binding.pry
   puts 'hello'
 end
 
 def runner
   prompt_user
   selection(get_user_input)
+  binding.pry
 end
